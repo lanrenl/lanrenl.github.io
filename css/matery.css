@@ -268,7 +268,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #9370D8 80%, #8B4513 20%);
 }
 
 .text-color {
@@ -461,14 +461,14 @@ header .side-nav .social-link {
 
 @-webkit-keyframes scroll-down {
     0% {
-        opacity: 0.4;
+        opacity: 0.3;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-        filter: alpha(opacity=40);
+        filter: alpha(opacity=30);
         top: 0;
     }
 
     50% {
-        opacity: 1;
+        opacity: 10;
         -ms-filter: none;
         filter: none;
         top: -16px;
